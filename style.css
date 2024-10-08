@@ -1,13 +1,12 @@
 body{
   background-color: rgb(23, 139, 139);
-  color: rgb(4, 26, 29);
-  margin-left:0%;
+  color: rgb(0, 0, 0);
   margin-top:0%;
 }
 
 #header-image{
-  margin-left:0%;
   margin-top: 0%;
+  margin-left:-8px;
 }
 
 h1{
@@ -31,6 +30,7 @@ p{
   transform: scaleX(-1);
   margin-left: -120px;
   margin-right: -50px;
+
 }
 
 a{
@@ -51,11 +51,15 @@ a{
 }
 
 #intro{
+  background-color: rgba(11, 56, 66, 0.436);
   display: flex;
 }
 
 #passions{
-  margin-left: 10px;
+  background-color: rgba(11, 56, 66, 0.436);
+  padding-left:10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 #passion-list{
@@ -69,9 +73,15 @@ a{
 }
 
 #projects{
-  margin-left: 10px;
+  background-color: rgba(11, 56, 66, 0.436);
 }
 
 #project-list{
   display: flex;
+}
+
+form{
+  background-color: rgba(11, 56, 66, 0.436);
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
